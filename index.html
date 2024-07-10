@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js"></script>
   </head>
 
   <body>
     <header>
-      <div class="navbar" id="myNavbar">
+      <div class="navbar" class="sticky" id="myNavbar">
+        <a href="#home">
+          <i class="fa fa-rocket"></i> Romlik
+        </a>
         <a href="#home" class="active">Hjem</a>
         <a href="#about">Om Oss</a>
         <a href="#projects">Prosjekter</a>
@@ -23,12 +27,25 @@
     </header>
 
     <main>
-      <section>
-      <h2>Seksjon 1</h2>
+      <section class="landing">
+        <h1 class="landingText">Hva blir ditt ettermæle?</h1>
+        <div class="ctaWrapper" class="flexColCenter">
+
+          <a href="">
+            <div class="ctaButton">Velg din rakett</div>
+          </a>
+
+          <a href="">
+            <div class="ctaButton">FAQ</div>
+          </a>
+
+        </div>
       </section>
-      <section>
-      <h2>Seksjon 2</h2>
-      </section>
+
+      <div class="contrast">
+        <p>Ditt lik, din fremtid</p>
+      </div>
+      <section class="landing"></section>
     </main>
 
     <footer>
